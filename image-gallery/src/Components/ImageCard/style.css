@@ -1,0 +1,13 @@
+.image-card{
+    width:200px;
+    height:250px;
+    border-radius: 6px;
+    object-fit: cover;
+    margin:10px;
+}
+
+.list-box{
+    width:950px;
+    display: flex;
+    flex-wrap:wrap;
+}
