@@ -1,0 +1,38 @@
+
+.wall-container{
+    width:100%;
+    min-height:100vh;
+    background-color:yellow;
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    position: absolute;
+    padding: 10px;
+    background-color: green;
+    color:white;
+    bottom: 10px;
+    border:none;
+}
+
+.add-btn-box {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: auto;
+    height: auto;
+  }
+  
+  .add-btn {
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
